@@ -1,0 +1,12 @@
+let products = [];
+products[0] = "Jarvis";
+products[1] = "Jarvis 1.0";
+products.push("Jarvis 2.0");
+products.push(10);
+console.log(products);
+products.pop();
+console.log(products);
+products.splice(2,2);
+console.log(products);
+products.splice(0,2);
+console.log(products);
